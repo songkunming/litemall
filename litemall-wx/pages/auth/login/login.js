@@ -62,7 +62,7 @@ Page({
       });
       return false;
     }
-
+    console.log(that.data);
     wx.request({
       url: api.AuthLoginByAccount,
       data: {

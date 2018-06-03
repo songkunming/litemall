@@ -41,6 +41,7 @@ Page({
     var that = this;
 
     if (this.data.password.length < 3 || this.data.username.length < 3) {
+      console.log(this.data.password);
       wx.showModal({
         title: '错误信息',
         content: '用户名和密码不得少于3位',

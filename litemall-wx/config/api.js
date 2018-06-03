@@ -1,12 +1,12 @@
 // 以下是业务服务器API地址
 // 本机开发时使用
- var WxApiRoot = 'http://localhost:9001/wx/';
+// var WxApiRoot = 'http://localhost:9001/wx/';
 // 局域网测试使用
 //var WxApiRoot = 'http://58.246.4.250:9001/wx/';
 // 云平台部署时使用
 //var WxApiRoot = 'http://122.152.206.172:8082/wx/';
 // 云平台上线时使用
-// var WxApiRoot = 'https://www.example.com/wx/';
+ var WxApiRoot = 'https://s.caifashe.com/wx/';
 
 // 以下是图片存储服务器API地址
 // 本机开发时使用
